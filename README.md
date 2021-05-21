@@ -22,4 +22,13 @@ i)loss1 is the MNIST detection loss and loss2 is the sum loss
 ii) loss is taken as sum of loss1 and loss2
 iii) The backward propagation is done on this loss
 iv)As this is multi-class classification, cross_entropy is used.
-v) Adam optimiser is used for 
+v) Adam optimiser is used for grads upgrade
+vi) The network and data is moved to GPU for training
+
+#results
+i) The training accuracy for MNIST image detection = 90%
+ii) The validation accuracy for MNIST image detection = 87%
+iii) The training accuracy for sum = 90%
+iv) The validation accuracy for sum = 87%
+
+
